@@ -163,7 +163,7 @@ namespace cryptonote
   {
     if (nettype == TESTNET)
     {
-    //  ADD_CHECKPOINT(0,     "48ca7cd3c8de5b6a4d53d2861fbdaedca141553559f9be9520068053cda8430b");
+    //  ADD_CHECKPOINT(0,       "48ca7cd3c8de5b6a4d53d2861fbdaedca141553559f9be9520068053cda8430b");
    //   ADD_CHECKPOINT(1000000, "46b690b710a07ea051bc4a6b6842ac37be691089c0f7758cfeec4d5fc0b4a258");
       return true;
     }
@@ -173,7 +173,8 @@ namespace cryptonote
     //  ADD_CHECKPOINT(10000,   "1f8b0ce313f8b9ba9a46108bfd285c45ad7c2176871fd41c3a690d4830ce2fd5");
       return true;
     }
-   // ADD_CHECKPOINT(1,     "771fbcd656ec1464d3a02ead5e18644030007a0fc664c0a964d30922821a8148");
+    ADD_CHECKPOINT(1,     "804cd0d245f8bb62a664a5df38d9f5611357fa479fe309dc3b64b70c214f26e9");
+    ADD_CHECKPOINT(10,    "a681c20305bb445a56ccdaad51be41acd1e3da08dbe9a8a9edd325deebf54c8a");
    
 
     return true;
