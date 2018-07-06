@@ -222,12 +222,24 @@ namespace cryptonote
 
     // All four MoneroPulse domains have DNSSEC on and valid
     static const std::vector<std::string> dns_urls = { 
+													  "ch1.lakran.pp.ua"
+													, "ch2.lakran.pp.ua"
+													, "ch3.lakran.pp.ua"
+													, "ch4.lakran.pp.ua"
     };
 
     static const std::vector<std::string> testnet_dns_urls = { 
+													  "th1.lakran.pp.ua"
+													, "th2.lakran.pp.ua"
+													, "th3.lakran.pp.ua"
+													, "th4.lakran.pp.ua"
     };
 
     static const std::vector<std::string> stagenet_dns_urls = {
+													  "sh1.lakran.pp.ua"
+													, "sh2.lakran.pp.ua"
+													, "sh3.lakran.pp.ua"
+													, "sh4.lakran.pp.ua"
     };
 
     if (!tools::dns_utils::load_txt_records_from_dns(records, nettype == TESTNET ? testnet_dns_urls : nettype == STAGENET ? stagenet_dns_urls : dns_urls))
