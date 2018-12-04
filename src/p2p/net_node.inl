@@ -373,14 +373,14 @@ namespace nodetool
     {
       full_addrs.insert("176.111.72.224:24080");
    full_addrs.insert("176.111.72.225:24080");
-   full_addrs.insert("91.210.166.39:24080");
+   full_addrs.insert("5.9.89.146:24080");
 
     }
     else if (nettype == cryptonote::STAGENET)
     {
       full_addrs.insert("176.111.72.224:34080");
    full_addrs.insert("176.111.72.225:34080");
-   full_addrs.insert("91.210.166.39:34080");
+   full_addrs.insert("5.9.89.146:34080");
 
     }
     else
